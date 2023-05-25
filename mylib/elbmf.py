@@ -157,7 +157,7 @@ def _factorize_ipalm(elbmf, beta):
     return U, V
 
 def _batched_factorize_ipalm(elbmf):
-    # あとでやる
+    # do this later
     U = elbmf.U.copy()
     V = elbmf.V.copy()
     
